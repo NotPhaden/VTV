@@ -1,12 +1,16 @@
 <head>
 
 <link rel="icon" type="image/png" href="logo.png">
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>VTV COMMUNITY</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
 <style>
 
@@ -82,7 +86,12 @@ margin-bottom:24px;
 
 .logo img{
 width:125px;
-border-radius:18px;
+height:125px;
+object-fit:cover;
+
+border-radius:50%;
+
+border:2px solid rgba(0,170,255,0.25);
 
 box-shadow:
 0 0 25px rgba(0,170,255,0.4);
@@ -184,8 +193,16 @@ box-shadow:
 opacity:1;
 }
 
+.link span{
+position:relative;
+z-index:2;
+}
+
 .icon{
-margin-right:8px;
+margin-right:10px;
+font-size:1.1rem;
+width:20px;
+text-align:center;
 }
 
 .arrow{
@@ -242,22 +259,42 @@ opacity:0.7;
 </div>
 
 <a class="link" href="https://discord.com/invite/PyWmvgbmfv" target="_blank">
-<span><span class="icon">💬</span> Discord Community</span>
+<span>
+<i class="fa-brands fa-discord icon"></i>
+Discord Community
+</span>
 <span class="arrow">➜</span>
 </a>
 
 <a class="link" href="https://www.instagram.com/vtvlivenow" target="_blank">
-<span><span class="icon">📸</span> Instagram</span>
+<span>
+<i class="fa-brands fa-instagram icon"></i>
+Instagram
+</span>
 <span class="arrow">➜</span>
 </a>
 
 <a class="link" href="https://www.youtube.com/@vetevelive" target="_blank">
-<span><span class="icon">▶️</span> YouTube</span>
+<span>
+<i class="fa-brands fa-youtube icon"></i>
+YouTube
+</span>
 <span class="arrow">➜</span>
 </a>
 
 <a class="link" href="https://kick.com/vtvlive" target="_blank">
-<span><span class="icon">🟢</span> Kick</span>
+<span>
+<i class="fa-solid fa-play icon"></i>
+Kick
+</span>
+<span class="arrow">➜</span>
+</a>
+
+<a class="link" href="https://www.tipeeestream.com/vadimtv/donation" target="_blank">
+<span>
+<i class="fa-solid fa-heart icon"></i>
+Donate
+</span>
 <span class="arrow">➜</span>
 </a>
 
